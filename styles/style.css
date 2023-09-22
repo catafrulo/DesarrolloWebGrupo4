@@ -4,18 +4,21 @@
     padding: 0px;
     scroll-snap-type: y proximity;
 }
+
 nav {
     display: flex;
     position: fixed;
     width: 100%;
     padding-top: 25px;
 }
+
 .list {
     display: flex;
     width: 100%;
     padding: 0px;
     justify-content: center;
 }
+
 .listitem {
     padding: 8px;
     margin-left: 8px;
@@ -27,6 +30,7 @@ nav {
     list-style: none;
     font-size: 20px;
 }
+
 #info {
     background-color: white;
     display: flex;
@@ -36,35 +40,33 @@ nav {
     height: 100vh;
 }
 
-.CVs{
+.CVs {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     height: 100vh;
     text-decoration: none;
-    list-style: none;    
+    list-style: none;
 
 }
 
-.CVs a{
+.CVs a {
     text-decoration: none;
 
 }
 
-
-
-.card:hover{
+.card:hover {
     padding: 2px;
     transition: all 0.7s ease-in-out;
     transform: translatey(8%);
     transform: scale(118%);
     font-size: 140%;
     transition-delay: 50ms;
-    text-align: center ;
-    
+    text-align: center;
+
 }
 
-.tituloCV{
+.tituloCV {
     font-size: 83.5%;
 }
