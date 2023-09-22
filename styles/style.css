@@ -51,9 +51,6 @@ nav {
 
 }
 
-.card{
-    margin-left: 5%;
-}
 
 .CVs a {
     text-decoration: none;
@@ -69,7 +66,7 @@ nav {
 
 .card:hover {
     padding: 2px;
-    transition: all 0.2s linear;
+    transition: all 0.4s linear;
     transform: translatey(8%);
     transform: scale(115%);
     font-size: 140%;
@@ -79,6 +76,8 @@ nav {
 
 }
 
+
+
 .tituloCV {
     font-size: 83.5%;
     text-align: center;
@@ -86,4 +85,13 @@ nav {
 
 .image{
     border-radius: 4px;
+
 }
+
+.divCV{
+    text-align: center;
+    width: 100%!important;
+    height: 100%!important;
+
+}
+
