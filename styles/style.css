@@ -51,17 +51,29 @@ nav {
 
 }
 
+.card{
+    margin-left: 5%;
+}
+
 .CVs a {
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
 
+}
+
+.card-body{
+    
+    background-color: rgb(47, 41, 41, 0.803);
 }
 
 .card:hover {
     padding: 2px;
     transition: all 0.7s ease-in-out;
     transform: translatey(8%);
-    transform: scale(118%);
+    transform: scale(115%);
     font-size: 140%;
+    position:relative;
     transition-delay: 50ms;
     text-align: center;
 
@@ -70,3 +82,4 @@ nav {
 .tituloCV {
     font-size: 83.5%;
 }
+
