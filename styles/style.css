@@ -22,21 +22,25 @@ nav {
     margin-right: 8px;
     border-radius: 1.51vh;
     background-color: #0468BF;
-    color: #fff;
+    color: white;
     text-decoration: none;
     list-style: none;
     font-size: 20px;
 }
 #info {
-    background-color: #0468BF;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    text-decoration: none;
-    list-style: none;
 }
+
+li{
+    list-style: none;
+    
+}
+
 
 .CVs{
     display: flex;
