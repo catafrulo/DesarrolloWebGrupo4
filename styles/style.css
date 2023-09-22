@@ -46,9 +46,27 @@ nav {
     height: 100vh;
     text-decoration: none;
     list-style: none;    
+
 }
 
 .CVs a{
     text-decoration: none;
 
+}
+
+
+
+.card:hover{
+    padding: 2px;
+    transition: all 0.7s ease-in-out;
+    transform: translatey(8%);
+    transform: scale(118%);
+    font-size: 140%;
+    transition-delay: 50ms;
+    text-align: center ;
+    
+}
+
+.tituloCV{
+    font-size: 83.5%;
 }
