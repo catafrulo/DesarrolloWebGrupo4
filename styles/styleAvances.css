@@ -32,14 +32,14 @@
 }
 
 .div-avances2 {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    place-content: center;
 }
 
 .seccion-avances2 {
-    width: 270px !important;
-    height: 4300px !important;
-    background-color: #F3F3F3;
+    width: 59.2vh !important;
+    height: auto !important;
+    background-color: rgb(243, 243, 243);
     height: 3150px;
     width: 800px;
     margin: 35px 0px;
