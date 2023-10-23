@@ -29,47 +29,31 @@ header {
     height: 100vh;
 }
 
-.CVs {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-decoration: none;
-    list-style: none;
-}
-
-.CVs a {
-    text-decoration: none;
-    color: whitesmoke;
-}
-
 .card-body {
-    background-color: rgb(47, 41, 41, 0.803);
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(23, 27, 23);
+    padding: 0;
 }
 
-.card:hover {
-    padding: 2px;
+.card:hover .card-body{
+    padding: 11px;
     transition: all 0.4s linear;
-    transform: translatey(8%);
-    transform: scale(115%);
     font-size: 140%;
-    position: relative;
     transition-delay: 50ms;
-    text-align: center;
 }
 
-.tituloCV {
-    font-size: 83.5%;
-    text-align: center;
+.card-body a{
+    padding: 0;
+    color: white;
+    text-decoration: none;
 }
 
 .image {
-    border-radius: 4px;
-}
-
-.divCV {
-    text-align: center;
-    width: 100% !important;
-    height: 100% !important;
+    height: 45vh;
+    border: 2px;
+    border-radius: 190px;   
+    border-style: solid;
+    border-color: black;
 }
