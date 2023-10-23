@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* ++++++++++ INICIO HEADER +++++++++++++++ */
 header {
     width: 100%;
@@ -22,11 +24,9 @@ header {
 
 #info {
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    display:grid;
+    place-content: center;
+    margin: 13%;
 }
 
 .card-body {
@@ -56,4 +56,10 @@ header {
     border-radius: 190px;   
     border-style: solid;
     border-color: black;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0%;
+    padding-left: 10px;
 }
