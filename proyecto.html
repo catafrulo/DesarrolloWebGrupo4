@@ -12,24 +12,23 @@
 <body>
     <!-- START HEADER -->
     <header>
-        <nav>
-            <ul class="list">
-                <a href="index.html" class="listitem">
-                    <li>Inicio</li>
-                </a>
-                <a href="integrantes.html" class="listitem">
-                    <li>Integrantes</li>
-                </a>
-                <a href="proyecto.html" class="listitem">
-                    <li>Proyecto</li>
-                </a>
-                <a href="avances.html" class="listitem">
-                    <li>Avances</li>
-                </a>
-                <a href="sitiodelproyecto.html" class="listitem">
-                    <li>Sitio del proyecto</li>
-                </a>
-            </ul>
+        <nav class="nav-inicio">
+            <div class="navdiv">
+                <a style="display: flex;" href="avances.html"><img src="img/LogoButhan.png" alt="LogoButhan"
+                        height="70px"></a>
+
+                <div class="labeldiv">
+                    <input type="checkbox" id="menu">
+                    <label for="menu"> ☰ </label>
+                    <ul class="lista">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="integrantes.html">Inegrantes</a></li>
+                        <li class="activo"><a href="proyecto.html">Proyecto</a></li>
+                        <li><a href="avances.html">Avances</a></li>
+                        <li><a href="sitiodelproyecto.html">Sitio del proyecto</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <!-- FIN HEADER -->
