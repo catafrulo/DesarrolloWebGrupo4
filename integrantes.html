@@ -5,30 +5,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/styleNAV.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
   <title>Integrantes</title>
 </head>
 
 <body>
   <!-- START HEADER -->
-  <header>
-    <nav class="nav-inicio">
-      <div class="navdiv">
-        <div class="labeldiv">
-          <input type="checkbox" id="menu">
-          <label for="menu"> ☰ </label>
-          <ul class="lista">
-            <li><a href="index.html">Inicio</a></li>
-            <li class="activo"><a href="integrantes.html">Inegrantes</a></li>
-            <li><a href="proyecto.html">Proyecto</a></li>
-            <li><a href="avances.html">Avances</a></li>
-            <li><a href="sitiodelproyecto.html">Sitio del proyecto</a></li>
-          </ul>
-        </div>
+  <header> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a href="avances.html"><img src="img/LogoButhan.png" alt="LogoButhan" height="70px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="integrantes.html">Integrantes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="proyecto.html">Proyecto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sitioDelProyecto.html ">Sitio del Proyecto</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </header>
@@ -38,52 +44,51 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-md-4 bloque">
-          <div class="card mb-4 box-shadow">
-            <img class="image" href="https://catafrulo.github.io/Desarrollo-Web/" src="img/matias.png">
-            <div class="card-body">
-              <p class="card-text">Matías Pedemonte</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
+          <div class="col-md-4 bloque">
+            <div class="card mb-4 box-shadow">
+              <img class="image" href="https://catafrulo.github.io/Desarrollo-Web/" src="img/matias.png">
+              <div class="card-body">
+                <a href="" class="card-text">Matías Pedemonte</a>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 bloque">
-          <div class="card mb-4 box-shadow">
-            <img class="image" src="img/augusto.jpg" alt="IMG-AugustoRoubineau">
-            <div class="card-body">
-              <p class="card-text">Augusto Roubineau</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
+          <div class="col-md-4 bloque">
+            <div class="card mb-4 box-shadow">
+              <img class="image" src="img/augusto.jpg" alt="IMG-AugustoRoubineau">
+              <div class="card-body">
+                <a href="" class="card-text">Augusto Roubineau</a>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 bloque">
-          <div class="card mb-4 box-shadow">
-            <img class="image" src="img/tobo.png" alt="IMG-TobiasHerrlein">
-            <div class="card-body">
-              <p class="card-text">Tobias Herrlein</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
+          <div class="col-md-4 bloque">
+            <div class="card mb-4 box-shadow">
+              <img class="image" src="img/tobo.png" alt="IMG-TobiasHerrlein">
+              <div class="card-body">
+                <a href="" class="card-text">Tobias Herrlein</a>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 bloque">
-          <div class="card mb-4 box-shadow">
-            <img class="image" href="https://catafrulo.github.io/Desarrollo-Web/" src="img/alejandro.jpg"
-              alt="IMG-AlejandroGuerrero">
-            <div class="card-body">
-              <p class="card-text">Alejandro Guerrero</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
+          <div class="col-md-4 bloque">
+            <div class="card mb-4 box-shadow">
+              <img class="image" href="https://catafrulo.github.io/Desarrollo-Web/" src="img/alejandro.jpg"
+                alt="IMG-AlejandroGuerrero">
+              <div class="card-body">
+                <a href="" class="card-text">Alejandro Guerrero</a>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                  </div>
                 </div>
               </div>
             </div>
@@ -91,7 +96,6 @@
         </div>
       </div>
     </div>
-  </div>
 </body>
 
 </html>

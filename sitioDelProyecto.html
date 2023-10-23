@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styleNAV.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
     <!-- SITE TITLE -->
     <title>Sitio del Proyecto</title>
 </head>
@@ -12,24 +16,29 @@
 <body>
     <!-- START HEADER -->
     <header>
-        <nav class="nav-inicio">
-            <div class="navdiv">
-                <a style="display: flex;" href="avances.html"><img src="img/LogoButhan.png" alt="LogoButhan"
-                        height="70px"></a>
-
-                <div class="labeldiv">
-                    <input type="checkbox" id="menu">
-                    <label for="menu"> ☰ </label>
-                    <ul class="lista">
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="integrantes.html">Inegrantes</a></li>
-                        <li><a href="proyecto.html">Proyecto</a></li>
-                        <li><a href="avances.html">Avances</a></li>
-                        <li class="activo"><a href="sitiodelproyecto.html">Sitio del proyecto</a></li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a style="display: flex;" href="avances.html"><img src="img/LogoButhan.png" alt="LogoButhan"
+              height="70px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="integrantes.html">Integrantes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="proyecto.html">Proyecto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="sitioDelProyecto.html ">Sitio del Proyecto</a>
+                </li>
+              </ul>
             </div>
-        </nav>
+          </nav>
     </header>
     <!-- FIN HEADER -->
     <h1>EN CONSTRUCCIÓN...!</h1>
