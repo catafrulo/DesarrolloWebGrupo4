@@ -78,6 +78,17 @@ label {
 
 /* ++++++++++ FIN HEADER +++++++++++++++ */
 
+/* ++++++++++ INICIO 1. PRESENTACIÓN GENERAL DEL PROYECTO +++++++++++++++ */
+main {
+    display: block;
+}
+
+/* ++++++++++ FIN 1. PRESENTACIÓN GENERAL DEL PROYECTO +++++++++++++++ */
+
+/* ++++++++++ INICIO 2. PÚBLICO OBJETIVO +++++++++++++++ */
+
+/* ++++++++++ FIN 2. PÚBLICO OBJETIVO +++++++++++++++ */
+
 *#info {
     background-color: white;
     display: flex;
