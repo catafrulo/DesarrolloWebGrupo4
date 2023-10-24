@@ -59,8 +59,11 @@ header {
 }
 
 .arbolSite {
-    display: flex;
+    display: grid;
+    place-content: center;
     margin: auto;
+    width: 100%;
+    height: auto;
 }
 
 .footer {
@@ -145,9 +148,20 @@ header {
 .caja-colores {
     margin-top: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 750px;
     justify-content: space-around;
+}
+
+.colores1{
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+}
+.colores2{
+    display: flex;
+    flex-direction: row;
+    place-content: center;
 }
 
 .clase-colores {
