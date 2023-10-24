@@ -58,6 +58,11 @@ header {
     border-color: black;
 }
 
+.arbolSite {
+    display: flex;
+    margin: auto;
+}
+
 .footer {
     position: fixed;
     bottom: 0%;
