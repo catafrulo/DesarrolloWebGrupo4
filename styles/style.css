@@ -75,6 +75,7 @@ header {
 /* ++++++++++ INICIO 1. PRESENTACIÓN GENERAL DEL PROYECTO +++++++++++++++ */
 .main-inicio-2 {
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     flex-direction: column;
