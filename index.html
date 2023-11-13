@@ -18,7 +18,7 @@
 <body>
   <!-- START HEADER -->
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a href="avances.html"><img src="img/LogoButhanPNG.png" alt="LogoButhan" height="70px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -27,8 +27,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link disabled" href="index.html">Home </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="integrantes.html">Integrantes</a>
@@ -48,23 +46,33 @@
     </nav>
   </header>
   <!-- FIN HEADER -->
-  <main>
-    <div id="info">
+  <section class="main-content">
+    <main class="info col-md-12 mt-5 contenedor">
+
       <h1>Informacion</h1>
       <ul>
-        <li>Numero de equipo: 4</li>
-        <li>Año: 2023</li>
-        <li>Curso: TN - Belgrano</li>
-        <li>Materia: Dieseño y desarollo web</li>
-        <li>Docente: Litovicius Patricia Carina</li>
+        <p>Numero de equipo: 4</p>
+        <p>Año: 2023</p>
+        <p>Curso: TN - Belgrano</p>
+        <p>Materia: Diseño y desarollo web</p>
+        <p>Docente: Litovicius Patricia Carina</p>
       </ul>
-    </div>
-  </main>
+    </main>
+  </section>
+
   <footer class="footer">
-    <div class="footerTexto">
-      <h3>© Grupo 4: Alejandro Guerrero, Augusto Roubineau, Matías Pedemonte, Tobias Herrlein</h3>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="./img/Uade.png" class="logoUade">
+      </div>
+      <div class="col-md-8 contenidoFooter">
+          <p>Trabajo Grupo 4  | Materia Diseño y Desarrollo Web</p>
+          <p>Alejandro Guerrero | Augusto Roubineau | Matías Pedemonte | Tobias Herrlein</p>
+          <p>@Derechos reservados de imágenes</p>
+      </div>
     </div>
   </footer>
+
 </body>
 
 </html>
