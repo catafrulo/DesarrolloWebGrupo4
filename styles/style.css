@@ -18,7 +18,7 @@ p{
 }
 
 .main-content {
-    min-height: 85vh;
+    min-height: 80vh;
 }
 
 /* ++++++++++ INICIO HEADER +++++++++++++++ */
@@ -51,20 +51,6 @@ header {
     margin: 0 auto;
 }
 
-.card-body {
-    text-align: center;
-    border: 2px;
-    border-style: solid;
-    border-color: rgb(23, 27, 23);
-    padding: 0;
-}
-
-.card:hover .card-body {
-    padding: 11px;
-    transition: all 0.4s linear;
-    font-size: 140%;
-    transition-delay: 50ms;
-}
 
 .card-body a {
     padding: 0;
@@ -87,25 +73,6 @@ header {
     margin: auto;
     width: 100%;
     height: auto;
-}
-
-.footer {
-    width: 100%;
-    display: flex;
-    max-height: 10vh;
-}
-
-.contenidoFooter p{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-.logoUade{
-    max-width: 200px;
-    max-height: 200px;
 }
 
 
