@@ -4,7 +4,8 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-.body{
+
+.body {
     display: block;
     align-items: center;
     justify-content: center;
@@ -12,7 +13,7 @@
     flex-direction: column;
 }
 
-p{
+p {
     margin-bottom: 0 !important;
 
 }
@@ -41,7 +42,7 @@ header {
     background-color: white;
 }
 
-.contenedor{
+.contenedor {
     border: 2px solid #333;
     padding: 20px;
     border-radius: 10px;
@@ -95,7 +96,7 @@ header {
     max-height: 10vh;
 }
 
-.contenidoFooter p{
+.contenidoFooter p {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -103,7 +104,7 @@ header {
     margin: 0;
 }
 
-.logoUade{
+.logoUade {
     max-width: 200px;
     max-height: 200px;
 }
@@ -191,12 +192,13 @@ header {
     justify-content: space-around;
 }
 
-.colores1{
+.colores1 {
     display: flex;
     flex-direction: row;
     place-content: center;
 }
-.colores2{
+
+.colores2 {
     display: flex;
     flex-direction: row;
     place-content: center;
@@ -255,6 +257,7 @@ header {
     align-items: center;
     flex-direction: column;
 }
+
 .box-container {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -265,6 +268,7 @@ header {
     grid-row-gap: 50px;
     margin-bottom: 10px;
 }
+
 .box-container img {
     border-radius: 150px;
     -webkit-border-radius: 150px;
@@ -272,6 +276,7 @@ header {
     -ms-border-radius: 150px;
     -o-border-radius: 150px;
 }
+
 .box-container a {
     background-color: #228B22;
     text-decoration: none;
@@ -282,6 +287,7 @@ header {
     width: 30px;
     font-weight: 500;
 }
+
 .box1 {
     grid-row: 1;
     grid-column: 1/2;
@@ -290,6 +296,7 @@ header {
     gap: 20px;
     align-items: center;
 }
+
 .box2 {
     grid-row: 1;
     grid-column: 2/2;
@@ -298,6 +305,7 @@ header {
     gap: 20px;
     align-items: center;
 }
+
 .box3 {
     grid-row: 2;
     grid-column: 1/2;
@@ -306,6 +314,7 @@ header {
     gap: 20px;
     align-items: center;
 }
+
 .box4 {
     grid-row: 2;
     grid-column: 2/2;
